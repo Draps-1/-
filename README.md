@@ -1,4 +1,6 @@
 Задание №6
+
+
 using System;
 
 class Program {
@@ -19,6 +21,8 @@ class Program {
 
 
 Задание №4
+
+
 using System;
 
 class Program {
@@ -48,6 +52,8 @@ class Program {
 
 
 Задание №1
+
+
 using System;
 
 class Program {
