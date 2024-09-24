@@ -1,46 +1,45 @@
 Задание №6:
 
 
-система;
+using System;
 
-программа класса {
+class Program {
     static void Main(string[] args) {
         int n = int.Parse(Console.ReadLine());
         int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
-        // Циклический поворот вправо
+        // Циклический сдвиг вправо
         int temp = arr[n - 1];
-        for (int i = n - 1; i &gt; 0; i--) {
-            доход[я] = доход[я - 1];
+        for (int i = n - 1; i > 0; i--) {
+            arr[i] = arr[i - 1];
         }
-        arr[0] = температура;
+        arr[0] = temp;
 
         Console.WriteLine(string.Join(" ", arr));
     }
 }
 
 
+
 Задание №4:
+using System;
 
-
-используя систему;
-
-программа класса {
+class Program {
     static void Main(string[] args) {
-        // Считываем кол-во элементов в массиве
+        // Считываем количество элементов в массиве
         int n = int.Parse(Console.ReadLine());
 
-        // Считываем элементы массива и преобразуем их в целочисленный массив.
+        // Считываем элементы массива и преобразуем их в целочисленный массив
         int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 
-        int DifferentCount = 1;
+        int distinctCount = 1;
 
         // Проходим по массиву, начиная со второго элемента
-        для (int i = 1; я &lt; n; я++) {
-            // Если какой-либо элемент отличается от внешнего вида,
+        for (int i = 1; i < n; i++) {
+            // Если текущий элемент отличается от предыдущего,
             // увеличиваем счетчик количества различных элементов
-            если (arr[i] != arr[i - 1]) {
-                DifferentCount++;
+            if (arr[i] != arr[i - 1]) {
+                distinctCount++;
             }
         }
 
@@ -51,10 +50,11 @@
 
 
 
+
 Задание №1:
 
 
-используя систему;
+using System;
 
 class Program {
     static void Main(string[] args) {
